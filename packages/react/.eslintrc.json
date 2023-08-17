@@ -1,5 +1,5 @@
 {
-  "extends": "@ignite-ui/eslint-config",
+  "extends": "@jmoura-dev-ignite-ui/eslint-config",
   "rules": {
     "@typescript-eslint/no-empty-interface": [
       "error",

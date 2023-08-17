@@ -1,5 +1,10 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@jmoura-dev-ignite-ui/react'
 
 export default {
   title: 'Typography/Text Input',

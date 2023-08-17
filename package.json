@@ -5,11 +5,18 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=packages/docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@vitejs/plugin-react": "^4.0.4",
     "turbo": "^1.10.12",
     "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "micromatch": "^4.0.5"
   }
 }
