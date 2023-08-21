@@ -1,7 +1,7 @@
 ## Design System
 
 ### Techs:
-- **Reactjs**, **Typescript*, **Stitches**, **Hooks**, **Radix**, **CI**;
+- **Reactjs**, **Typescript**, **Stitches**, **Hooks**, **Radix**, **CI**;
 
 ## 📁 Project
 
