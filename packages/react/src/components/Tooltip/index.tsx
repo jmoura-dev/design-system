@@ -1,5 +1,6 @@
 import * as TooltipTags from '@radix-ui/react-tooltip'
 import { ComponentProps, ElementType, ReactNode } from 'react'
+import { TooltipArrow, TooltipContent } from './styles'
 
 export interface TooltipProps extends ComponentProps<typeof TooltipTags.Root> {
   as?: ElementType
@@ -12,10 +13,10 @@ export function Tooltip({ children, content, ...props }: TooltipProps) {
       <TooltipTags.Root>
         <TooltipTags.Trigger asChild>{children}</TooltipTags.Trigger>
         <TooltipTags.Portal>
-          <TooltipTags.Content>
-            <TooltipTags.Arrow />
+          <TooltipContent>
+            <TooltipArrow />
             {content}
-          </TooltipTags.Content>
+          </TooltipContent>
         </TooltipTags.Portal>
       </TooltipTags.Root>
     </TooltipTags.Provider>
